@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "formik-form-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/formikForm/FormikFormWebPart.js",
+          "manifest": "./src/webparts/formikForm/FormikFormWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FormikFormWebPartStrings": "lib/webparts/formikForm/loc/{locale}.js"
+  }
+}

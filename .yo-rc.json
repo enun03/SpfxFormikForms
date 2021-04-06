@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "onprem19",
+    "version": "1.11.0",
+    "libraryName": "formik-form",
+    "libraryId": "46d306f1-4868-4c9c-8d92-d7e907553ad0",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}
